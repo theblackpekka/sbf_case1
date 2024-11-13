@@ -13,9 +13,9 @@ export const NavBar = () => {
 
           <h1 className="order-2 font-bold tracking-wider">Klinik Psikologi Sejahtera</h1>
         </div>
-        <div className="order-1 md:order-2 gap-4 md:gap-10 flex items-center justify-between flex-wrap text-sm font-thin text-main">
-          <div className=" hover:text-gray-700"><a href="#">Beranda</a></div>
-          <div className=" hover:text-gray-700"><a href="#">Jadwal</a></div>
+        <div className="order-1 md:order-2 gap-4 md:gap-10 flex items-center justify-between flex-wrap text-sm font-normal text-main">
+          <div className=" hover:text-gray-700"><a href="/">Beranda</a></div>
+          <div className=" hover:text-gray-700"><a href="/jadwal-psikolog">Jadwal</a></div>
           <button className="px-5 py-3 bg-main hover:bg-gray-700 text-sm text-gray-50 rounded-full flex items-center gap-2">
               Login
           </button>

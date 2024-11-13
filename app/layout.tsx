@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={dm_sans_init.variable}>
-        <main className="cm_sans">
+        <main className="dm_sans">
         {children}
         </main>
       </body>
